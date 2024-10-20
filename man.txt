@@ -1,0 +1,70 @@
+Calling a function without argument will triger the corresponding function helper.
+
+------
+
+###serie: start a movie using vlc
+
+##alias: gs
+
+#commandes:
+
+serie shortcut season episode
+->for exemple: gs got s1 1
+will start the first episode of Game of thrones
+
+serie
+or
+serie ls
+will display all the available series
+
+------
+
+###mvSerie: move all the episodes from a directory to the video directory and create the necessary folders
+
+##alias: none
+
+#commande: mvSerie shortcut season name
+->for exemple: mvSerie got s1 Game-of-thrones
+will move the Game-of-thrones serie, rename the files and make the necessary folders
+=> If the seirie alredy exist on your computer the "name" is not necessary.
+
+#warnings:
+-the serie must be in the download folder overwise it will be blocked for security purpose
+-the pwd of your terminal should be the one with the episodes while you are running this command
+-the folder should contain only episodes and nothing else
+-you may try the "ls" cmdlet to be sure that the order of the episodes are correct
+
+------
+
+###season: show the available season of a specified serie
+
+##alias: none
+
+#commande: season shortcut
+-> for exemple: season got
+will display all the available seasons and episodes of Game-of-thrones
+
+------
+
+### addEpisode: move the episodes of the present directory to an existing season
+
+##alias: none
+
+#command: addEpisode shortcut season
+-> for exemple: addEpisode got s1
+wille move the episode of the present folder to the Game-of-Thrones s1 folder. 
+This cmdlet will count the number of episodes that you alredy have inside the s1 directory
+
+#warnings:
+-the serie must be in the download folder overwise it will be blocked for security purpose
+-the pwd of your terminal should be the one with the episodes while you are running this command
+-the folder should contain only episodes and nothing else
+-you may try the "ls" cmdlet to be sure that the order of the episodes are correct
+
+------
+
+### delSerie: delete a serie by cmdlets
+
+# command: delSerie cmdlet1,cmdlet2 ...
+
+delete a serie by a list of cmdlet.
