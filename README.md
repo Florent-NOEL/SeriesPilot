@@ -28,7 +28,7 @@ will open your profile file within vscode
 
 How the app work:
 
-the app read the name of the files and the name of the episodes inside the specified folder.
+the app read the name of the folders and the name of the episodes inside the specified folder.
 In order to make it work all the series need the following structure.
 
 for exemple for Game-of-Thrones
